@@ -6,3 +6,8 @@ naranjas
 bananas
 kiwi
 cerezas
+----------
+
+peras
+sandia
+durazno
