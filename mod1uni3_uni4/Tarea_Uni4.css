@@ -1,0 +1,79 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet; /*comentario en CSS*/
+    text-align: center;
+    background-color: palevioletred;
+    font-size: 40px;
+}
+
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: rgb(185, 44, 91);
+    font-size: 28px;
+    background-color: aqua;
+    font-weight: bold;
+}
+
+
+p{
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h3{
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.destacados{
+    font-size: 25px;
+    color: rgb(107, 58, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+ul{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+    font-size: 29px;
+    text-align: center;
+}
+
+
+ol{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+    font-size: 29px;
+    text-align: center;
+}
+
+
+#Perfil{
+    background-color: rgb(216, 185, 200);
+    padding: 20px;
+    border: 8px dotted purple;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+#Perfil h3{
+    background-color: aqua;
+    border: 10px double plum
+}
+
+
+#Perfil:hover{
+    background-color: rgb(219, 106, 144);   
+}
+
+h4{
+    font-size: 35px;
+    background-color: aquamarine;
+}
