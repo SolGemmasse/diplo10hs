@@ -1,0 +1,145 @@
+.cardcontainer {
+    background-image: url('http://localhost:3001/imagenes/textura11.jpg');
+    height: 100%;
+    padding: 5px;
+    background-size: cover;
+}
+
+.carousel-cont {
+    width: 3700px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    padding: 40px;
+    background-color: rgba(81, 23, 88, 0.664);
+    border-radius: 20px;
+    align-items: center;
+}
+
+.carouselbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-size: cover;
+}
+
+.boxderecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+    padding: 40px;
+    background-color: rgba(81, 23, 88, 0.664);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 3800px;
+    height: fit-content;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cafeteriatitulo {
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #cf741e;
+    margin-bottom: 10px;
+}
+
+.cafeteriatexto {
+    font-size: 1.5rem;
+    color: #dfb99a;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.bientexto {
+    font-size: 1.4rem;
+    padding: 10px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.bientitulo {
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.2rem;
+    font-weight: bolder;
+}
+
+.bienvenidos {
+    background-color: #dbc67e;
+    border: 20px solid rgb(189, 142, 88);
+    padding: 10px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-left: 60px solid #b66f35;
+    border-right: 60px solid #b66f35;
+}
+
+.columnas {
+    background-image: url('http://localhost:3001/imagenes/textura6.jpg');
+    padding: 35px;
+    background-size: cover;
+}
+
+.boxmedio {
+    background-color: #dbc67e;
+    border: 10px solid #473005;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulomedio {
+    color: rgb(75, 41, 9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.2rem;
+    font-weight: bolder;
+}
+
+.textomedio {
+    font-size: 1.3rem;
+    padding: 10px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+}
+
+@media (max-width: 1000px) {
+    .carouselbox {
+        flex-direction: column;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .boxderecha, .carousel-cont {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .carouselbox, .boxderecha, .carousel-cont {
+        padding: 5px;
+        margin: 10px;
+    }
+}
+

@@ -1,0 +1,51 @@
+
+
+.titulo {
+
+  
+  font-family: "Press Start 2P", serif;
+  font-weight: 1000;
+  font-style:initial;
+  size: 80px;
+  
+  
+
+  color: rgb(148, 64, 141); 
+  justify-content: flex-start;
+  font-size: 50px; 
+  margin-left: 30px;   
+}
+
+
+
+.holdertitle {
+
+  display: flex; 
+  align-items: center; 
+  padding: 10px 20px; 
+  background-color: #f8f8f8; 
+  flex-direction:row;
+  background: rgb(0, 0, 0);
+  
+  
+
+}
+
+.logo {
+  display: flex;
+  width: 85px; 
+  height: auto; 
+
+}
+
+
+footer {
+  background-color: #2e1d06;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+

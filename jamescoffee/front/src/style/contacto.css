@@ -1,0 +1,129 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('http://localhost:3001/imagenes/textura1.jpg');
+}
+
+main.holder.contacto {
+    display: grid;
+    gap: 30px;
+    margin: 40px auto;
+    max-width: 1300px;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.columna {
+    background-color: rgba(189, 142, 88, 0.705);
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.columna2 {
+    background-color: rgba(199, 134, 59, 0.534);
+    padding: 40px;
+    justify-items: center;
+    border-radius: 30px;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #30053d;
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ebb8ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario p {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.formulario label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #5a2a68;
+}
+
+.formulario input[type="text"],
+.formulario textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #d4b1b1;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.formulario input[type="text"]:focus,
+.formulario textarea:focus {
+    border-color: #5a2a68;
+}
+
+.formulario input[type="submit"] {
+    padding: 12px 20px;
+    font-size: 1.5rem;
+    background-color: #5a2a68;
+    color: #ad8383;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #40214c;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+div a {
+    display: inline-block;
+    font-size: 2.5rem;
+    color: #210629;
+    margin-right: 15px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+div a:hover {
+    color: #1f1002;
+    transform: scale(1.1);
+}
+
+div i {
+    margin-right: 10px;
+}
+
+.formulario p {
+    text-align: center;
+}
+
+.formulario p + p {
+    color: green;
+    text-align: center;
+}
+
+.formulario p + p:nth-of-type(2) {
+    color: red;
+}

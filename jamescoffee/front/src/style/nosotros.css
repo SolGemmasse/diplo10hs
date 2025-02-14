@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.maincont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    flex-grow: 1;
+}
+
+.contentitulo {
+    text-align: center;
+    background-color: #dcb1e7e5;
+    color: rgb(31, 19, 4);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    width: 800px;
+}
+
+.contentitulo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.4rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.introbox {
+    background-color: #bd8e62b6;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 30px solid #6c378aa4;
+}
+
+.scroll {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#list-example {
+    background-color: #bb997bb2;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    background-color: #744e819a;
+    border: 9px solid #392153c4;
+    margin-bottom: 5px;
+    font-size: 1.8rem;
+    color: #e4b58a;
+    padding: 30px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.list-group-item:hover {
+    background-color: #311146;
+    color: white;
+}
+
+.scrollspy-example {
+    background-color: #bb8ebd9a;
+    padding: 20px;
+    border-radius: 19px;
+    height: 400px;
+    overflow-y: scroll;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list-item {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #400b50;
+}
+
+.parrafoinfo {
+    font-size: 1.7rem;
+    color: rgb(5, 5, 5);
+    font-weight: 600;
+}
+
+.scrolcont {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding: 40px;
+}
+
+.tituloback {
+    background-image: url('http://localhost:3001/imagenes/textura6.jpg');
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.introtitulo {
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(51, 19, 7);
+    padding: 20px;
+}
+
+.introtexto {
+    font-size: 1.8rem;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(51, 19, 7);
+    font-weight: 700;
+}
+
